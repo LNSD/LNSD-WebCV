@@ -464,9 +464,17 @@ a img {
 .section-header .section-title .icon.category2 {
 	background: #a8d324;
 }
+.section-header .section-title .icon.category3 {
+	background: rgb(255, 143, 69);
+}
 #resume .section-header h2 .icon.category2:after {
 	padding-top: 4px;
 	content: "h";
+}
+#resume .section-header h2 .icon.category3:after {
+	padding-top: 6px;
+	font-size: 85px;
+	content: "t";
 }
 .resume_post {
 	overflow: hidden;	
@@ -568,6 +576,9 @@ a img {
 .resume_header .post_title_icon.category2 {
 	background: #7caf00;
 }
+.resume_header .post_title_icon.category3 {
+	background: rgb(255, 143, 69);
+}
 .resume_post .resume_header .resume_position {
 	float: right;
 	width: 50%;
@@ -608,11 +619,21 @@ a img {
 	padding-top: 4px;
 	font-size: 57px;
 }
+.resume_post .resume_header .resume_position .icon.icon4:after {
+	content: "y";
+	padding-top: 5px;
+	font-size: 50px;
+}
+
+
 .resume_header .resume_position.category1 .icon {
 	background: #50C0E9;
 }
 .resume_header .resume_position.category2 .icon {
 	background: #a8d324;
+}
+.resume_header .resume_position.category3 .icon {
+	background: rgb(255, 143, 69);
 }
 #resume .section-header.widgets_section h2 .icon {
 	background: rgb(240, 73, 73);
