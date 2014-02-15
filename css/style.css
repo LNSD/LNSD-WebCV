@@ -237,12 +237,13 @@ a img {
 #profile_name .name {
     font-weight: 700;
     line-height: 41px;
-    margin-bottom: 5px;
+    margin-bottom: 13px;
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 43px;
 }
 #profile_name .profile_inner {
-	padding: 20px;
+	padding: 16px;
+	padding-top: 18px;
 }
 #profile_name .pos {
 	text-transform: uppercase;
@@ -270,10 +271,10 @@ a img {
 }
 .author_info .user_desc {
 	color: #666666;
-    font-size: 24px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 22px;
     margin-bottom: 32px;
-    padding-right: 40px;
+    /*padding-right: 40px;*/
     text-align: left;
 }
 .phone_num .icon {
@@ -558,7 +559,8 @@ a img {
 	content: "k";
 }
 .resume_post .resume_content {
-	padding: 0 40px 31px 0;
+	padding: 0 75px 31px 0;
+	text-align: justify;
 }
 .resume_header .post_title_icon.category1 {
 	background: #50C0E9;
