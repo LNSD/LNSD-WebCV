@@ -188,7 +188,7 @@ function pagesBuild() {
 	var total = items.length;
 	jQuery("#portfolio_load_more").hide();
 	if (total > ppp) {
-		var pagesList = '<a href="#" data-filter=".visible" id="more_results"><span>More Results</span></a>';
+		var pagesList = '<a href="#" data-filter=".visible" id="more_results"><span>More Projects</span></a>';
 		items.each(function(idx, obj) {
 			var pg = Math.floor(idx/ppp)+1;
 			jQuery(obj).addClass(pg==1 ? 'visible' : 'hidden');

@@ -599,7 +599,7 @@ a img {
 }
 .resume_post .resume_header .resume_position .icon.icon2:after {
 	content: "x";
-	padding-top: 1px;
+	padding-top: 4px;
 }
 .resume_post .resume_header .resume_position .icon.icon3:after {
 	content: "h";
@@ -613,7 +613,7 @@ a img {
 	background: #a8d324;
 }
 #resume .section-header.widgets_section h2 .icon {
-	background: #497CF0;
+	background: rgb(240, 73, 73);
 }
 #resume .section-header.widgets_section h2 .icon:after {
 	content: "s";
