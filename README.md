@@ -1,4 +1,4 @@
-LNSD-WebCV
+OUTDATED! - LNSD-WebCV
 ==========
 
 Lorenzo Delgado Antequera, LNSD, personal WebCV, vCard &amp; portfolio.
